@@ -35,7 +35,7 @@ img {
 }
 
 
-/* navbar regular css start */
+/* navbar regular css inicio */
 .navbar-area {
     background: #202020;
     border-bottom: #202020;
@@ -63,6 +63,7 @@ img {
     padding: 0;
     list-style: none;
     display: flex;
+    transition: 0.3s;
   }
   .site-navbar ul li a {
     color: #fff;
@@ -76,10 +77,10 @@ img {
   .site-navbar ul li a:hover {
     background: rgba(255,255,255,.1);
   }
-  /* navbar regular css end */
+  /* navbar regular css fim */
   
   
-  /* nav-toggler css start */
+  /* nav-toggler css inicio */
   .nav-toggler {
     border: 3px solid #fff;
     padding: 5px;
@@ -114,10 +115,10 @@ img {
   .nav-toggler.toggler-open span:after {
     transform: translateY(-3px) rotate(-45deg);
   }
-  /* nav-toggler css start */
+  /* nav-toggler css inico */
   
   
-  /* intro-area css start */
+  /* intro-area css inicio */
   .intro-area {
     height: calc(100vh - 61px);
     display: flex;
@@ -134,7 +135,7 @@ img {
   .intro-area p {
     font-size: 18px;
   }
-  /* intro-area css end */
+  /* intro-area css fim */
 
 /*
 
@@ -233,6 +234,8 @@ nav ul li a:hover {
     background-color: #fff;
 }
 
+
+/*inicio cartões */
   @import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800;900&display=swap");
   *,
   *::after,
@@ -413,25 +416,25 @@ footer {
 }
 
 #TopBtn {
-  display: none; /* Hidden by default */
-  position: fixed; /* Fixed/sticky position */
-  bottom: 20px; /* Place the button at the bottom of the page */
-  right: 20px; /* Place the button 30px from the right */
-  z-index: 50; /* Make sure it does not overlap */
-  border: none; /* Remove borders */
-  outline: none; /* Remove outline */
-  background-color: #FF5733; /* Set a background color */
-  cursor: pointer; /* Add a mouse pointer on hover */
-  border-radius: 100px; /* Rounded corners */
+  display: none;
+  position: fixed;
+  bottom: 20px; 
+  right: 20px; 
+  z-index: 50;
+  border: none; 
+  outline: none; 
+  background-color: #FF5733;
+  cursor: pointer;
+  border-radius: 100px;
   transition: 0.2s ease;
 }
 
 #TopBtn:hover {
-  background-color:#fff; /* Add a dark-grey background on hover */
+  background-color:#fff;
   color: #FF5733;
 }
 
- /* mobile breakpoint start */
+ /* mobile resize inicio */
  @media screen and (max-width: 767px) {
   .container {
     max-width: 720px;
@@ -451,7 +454,7 @@ footer {
     left: -25px;
 
   }
-  /* navbar css for mobile start */
+  /* navbar css para mobile inicio */
   .nav-toggler{
     display: block;
   }
@@ -491,7 +494,7 @@ footer {
     font-size: 36px;
     margin-bottom: 15px;
   }  
-  /* navbar css for mobile end */
+  /* navbar css para mobile fim */
 
   .main__heading{
     position: relative;

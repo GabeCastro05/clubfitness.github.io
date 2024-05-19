@@ -1,4 +1,4 @@
-// Get the button
+// Vai procurar o id TopBtn
 let mybutton = document.getElementById("TopBtn");
 
 // When the user scrolls down 20px from the top of the document, show the button
@@ -13,10 +13,10 @@ function scrollFunction() {
     }
 }
 
-// When the user clicks on the button, scroll to the top of the document
+// Quando o user clica no botão, a página dá scroll até ao ínico
 mybutton.addEventListener('click', function() {
     window.scrollTo({
         top: 0,
-        behavior: 'smooth' // Enables smooth scroll
+        behavior: 'smooth' // Scroll suave
     });
 });
