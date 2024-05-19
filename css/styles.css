@@ -215,7 +215,7 @@ nav ul li a:hover {
 }
 
 .btn {
-  font-size: 16px;
+    font-size: 16px;
     display: inline-block;
     background-color: #FF5733;
     color: #fff;
@@ -224,7 +224,8 @@ nav ul li a:hover {
     border-radius: 10px;
     text-decoration: none;
     box-shadow: -1px -1px 0 #FF5733, 1px -1px 0 #FF5733, -1px 1px 0 #FF5733, 1px 1px 0 #FF5733;
-  transition: 0.5s;
+    transition: 0.5s;
+    margin-top: 60px;
 }
 
 .btn:hover {
@@ -302,19 +303,19 @@ main.flow{
   }
   
   .card:nth-child(1) {
-    --hue: 165;
+    --hue: 195;
     --saturation: 82.26%;
     --lightness: 51.37%;
   }
   
   .card:nth-child(2) {
-    --hue: 291.34;
+    --hue: 147;
     --saturation: 95.9%;
     --lightness: 61.76%;
   }
   
   .card:nth-child(3) {
-    --hue: 338.69;
+    --hue: 43;
     --saturation: 100%;
     --lightness: 48.04%;
   }
@@ -374,7 +375,7 @@ main.flow{
       #000 1%,
       transparent 50%
     );
-    transition: 400ms mask ease;
+    transition: 100ms mask ease;
     will-change: mask;
   }
   
@@ -415,21 +416,19 @@ footer {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
   bottom: 20px; /* Place the button at the bottom of the page */
-  right: 30px; /* Place the button 30px from the right */
+  right: 20px; /* Place the button 30px from the right */
   z-index: 50; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
   background-color: #FF5733; /* Set a background color */
-  color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 10px; /* Some padding */
-  border-radius: 10px; /* Rounded corners */
-  font-size: 18px; /* Increase font size */
+  border-radius: 100px; /* Rounded corners */
+  transition: 0.2s ease;
 }
 
 #TopBtn:hover {
   background-color:#fff; /* Add a dark-grey background on hover */
-color: #FF5733;
+  color: #FF5733;
 }
 
  /* mobile breakpoint start */

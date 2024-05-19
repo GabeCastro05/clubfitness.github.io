@@ -23,6 +23,15 @@ body {
     padding: 0;
 }
 
+h3{
+  font-size: 1.5em;
+}
+
+p{
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
 .container {
     width: 80%;
     margin: 0 auto;
@@ -30,13 +39,10 @@ body {
 }
 
 img {
-  position: absolute;
-  left: 50px;
-  margin-top: -6px;
-}
-
-.site-logo{
-  margin-left: -50px;
+  top: 4px;
+  position: relative;
+  max-width: 50px;
+  height: auto;
 }
 
 /* navbar regular css start */
@@ -50,11 +56,14 @@ img {
     align-items: center;
   }
   a.site-logo {
-    font-size: 26px;
+    font-size: 2rem;
     font-weight: 800;
     text-transform: uppercase;
     color: #fff;
     text-decoration: none;
+    margin-left: 10px;
+    position: relative;
+    top: -10px;
   }
   .site-navbar ul {
     margin: 0;
@@ -131,6 +140,12 @@ img {
   .intro-area p {
     font-size: 18px;
   }
+
+  #aulas-horarios{
+    text-align: center;
+    margin-top: 50px;
+  }
+
   /* intro-area css end */
   
 
@@ -162,10 +177,15 @@ nav ul li a:hover {
 }
 
 footer {
-    background-color: #202020;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
+  background-color: #202020;
+  color: #fff;
+  text-align: center;
+  padding: 25px 0;
+  height: 2.5rem;
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+
 }
 
 
@@ -231,6 +251,11 @@ footer {
     font-size: 36px;
     margin-bottom: 15px;
   }  
+
+  footer p{
+    font-weight: 600;
+    font-size: 1rem;
+  }
   /* navbar css for mobile end */
 }
 /* mobile breakpoint end */

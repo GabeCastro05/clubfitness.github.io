@@ -30,13 +30,10 @@ body {
 }
 
 img {
-  position: absolute;
-  left: 50px;
-  margin-top: -6px;
-}
-
-.site-logo{
-  margin-left: -50px;
+  top: 3px;
+  position: relative;
+  max-width: 50px;
+  height: auto;
 }
 
 /* navbar regular css start */
@@ -50,11 +47,14 @@ img {
     align-items: center;
   }
   a.site-logo {
-    font-size: 26px;
+    font-size: 2rem;
     font-weight: 800;
     text-transform: uppercase;
     color: #fff;
     text-decoration: none;
+    margin-left: 10px;
+    position: relative;
+    top: -10px;
   }
   .site-navbar ul {
     margin: 0;
@@ -192,11 +192,15 @@ nav ul li a:hover {
 
 
 footer {
-    background-color: #202020;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-    
+  background-color: #202020;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  height: 2.5rem;
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+
 }
 
 /* mobile breakpoint start */
