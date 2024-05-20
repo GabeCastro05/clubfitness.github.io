@@ -196,12 +196,16 @@ footer {
   background-color: #202020;
   color: #fff;
   text-align: center;
-  padding: 20px 0;
+  padding: 25px 0;
   height: 2.5rem;
   width: 100%;
-  bottom: 0;
   position: absolute;
+  bottom: 0;
+}
 
+footer p{
+  font-size: 1.1rem;
+  font-weight: 500;
 }
 
 /* mobile breakpoint start */
@@ -210,22 +214,22 @@ footer {
       max-width: 720px;
     }
 
-    img {
-    top: 7px;
-    width: 45px;
-    position: relative;
-    left: 10px;
-  }
+    
+img {
+  top: 5px;
+  width: 45px;
+  position: relative;
+  left: -15px;
+}
 
-  a.site-logo{
-    position: relative;
-    font-size: 22px;
-    margin-left: 44px;
-    font-size: 1.7rem;
-    left: -25px;
-    bottom: 6px;
-
-  }
+a.site-logo{
+  position: relative;
+  font-size: 22px;
+  margin-left: 44px;
+  font-size: 1.7rem;
+  left: -55px;
+  bottom: 6px;
+}
 
     /* navbar css for mobile start */
     .nav-toggler{
