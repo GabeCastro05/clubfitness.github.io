@@ -28,10 +28,13 @@ body {
   background-repeat: no-repeat;
 }
 
+
+
 .container {
   width: 80%;
   margin: 0 auto;
   max-width: 1200px;
+  text-align: center;
 }
 
 img {
@@ -40,7 +43,6 @@ position: relative;
 max-width: 50px;
 height: auto;
 }
-
 
 /* navbar regular css start */
 .navbar-area {
@@ -157,6 +159,11 @@ background-size: cover;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
+.about p{
+  font-size: 1.3rem;
+  -webkit-text-stroke: 0.2px #000;
+}
+
 
 footer {
   background-color: #202020;
@@ -180,8 +187,13 @@ width: 35px;
 margin-left: 10px;
 }
 
+.footer-icon:hover{
+  opacity: 70%;
+}
 
-/* mobile breakpoint start */
+
+ /*............................................ mobile resize inicio ...............................................*/
+
 @media screen and (max-width: 767px) {
 .container {
   max-width: 720px;
