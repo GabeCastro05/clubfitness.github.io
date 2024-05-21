@@ -170,7 +170,6 @@ footer {
   color: #fff;
   text-align: center;
   padding: 5px 0;
-  position: fixed;
   bottom: 0;
   width: 100%;
 }
@@ -197,6 +196,15 @@ margin-left: 10px;
 @media screen and (max-width: 767px) {
 .container {
   max-width: 720px;
+}
+
+
+.about {
+  width: 100%;
+  padding: 85px 0;
+  text-align: center;
+  color: #fff;
+  background-size: cover;
 }
 
 img {
@@ -261,7 +269,6 @@ footer p{
 }
 
 footer{
-  position: fixed;
   bottom: 0;
 }
 
