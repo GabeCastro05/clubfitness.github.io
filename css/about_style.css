@@ -44,7 +44,7 @@ max-width: 50px;
 height: auto;
 }
 
-/* navbar regular css start */
+/* navbar regular css inicio */
 .navbar-area {
   background: #202020;
   border-bottom: #202020;
@@ -83,10 +83,10 @@ a.site-logo {
 .site-navbar ul li a:hover {
   background: rgba(255,255,255,.1);
 }
-/* navbar regular css end */
+/* navbar regular css fim */
 
 
-/* nav-toggler css start */
+/* nav-toggler css inicio */
 .nav-toggler {
   border: 3px solid #fff;
   padding: 5px;
@@ -121,10 +121,10 @@ a.site-logo {
 .nav-toggler.toggler-open span:after {
   transform: translateY(-3px) rotate(-45deg);
 }
-/* nav-toggler css end */
+/* nav-toggler css fim */
 
 
-/* intro-area css start */
+/* intro-area css inicio */
 .intro-area {
   height: calc(100vh - 61px);
   display: flex;
@@ -141,7 +141,7 @@ a.site-logo {
 .intro-area p {
   font-size: 18px;
 }
-/* intro-area css end */
+/* intro-area css fim */
 
 
 .about {
@@ -201,7 +201,7 @@ margin-left: 10px;
 
 .about {
   width: 100%;
-  padding: 50px 0;
+  padding: 85px 0;
   text-align: center;
   color: #fff;
   background-size: cover;
@@ -223,7 +223,7 @@ a.site-logo{
   bottom: 6px;
 }
 
-/* navbar css for mobile start */
+/* navbar css for mobile inicio */
 .nav-toggler{
   display: block;
 }
@@ -278,6 +278,6 @@ footer{
   width: 35px;
   margin-left: 10px;
 }
-/* navbar css for mobile end */
+/* navbar css para mobile fim */
 }
-/* mobile breakpoint end */
+/* breakpoint para mobile fim */

@@ -79,6 +79,7 @@ img {
   }
   /* navbar regular css fim */
   
+
   
   /* nav-toggler css inicio */
   .nav-toggler {
@@ -115,7 +116,7 @@ img {
   .nav-toggler.toggler-open span:after {
     transform: translateY(-3px) rotate(-45deg);
   }
-  /* nav-toggler css inico */
+  /* nav-toggler css fim */
   
   
   /* intro-area css inicio */
@@ -178,7 +179,7 @@ img {
 }
 
 
-/*inicio cartões */
+/*inicio cartões de preço */
   @import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800;900&display=swap");
   *,
   *::after,
@@ -345,6 +346,8 @@ main.flow{
     background: hsla(var(--hsl), 0.1);
   }
 
+  /*fim dos cartões de preço*/
+
 
 
 footer {
@@ -370,6 +373,7 @@ footer p{
   opacity: 70%;
 }
 
+/*botão para o topo*/
 #TopBtn {
   display: none;
   position: fixed;

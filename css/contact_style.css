@@ -36,7 +36,7 @@ img {
   height: auto;
 }
 
-/* navbar regular css start */
+/* navbar regular css inicio */
 .navbar-area {
     background: #202020;
     border-bottom: #202020;
@@ -75,10 +75,10 @@ img {
   .site-navbar ul li a:hover {
     background: rgba(255,255,255,.1);
   }
-  /* navbar regular css end */
+  /* navbar regular css fim */
   
   
-  /* nav-toggler css start */
+  /* nav-toggler css inicio */
   .nav-toggler {
     border: 3px solid #fff;
     padding: 5px;
@@ -113,10 +113,10 @@ img {
   .nav-toggler.toggler-open span:after {
     transform: translateY(-3px) rotate(-45deg);
   }
-  /* nav-toggler css start */
+  /* nav-toggler css fim */
   
   
-  /* intro-area css start */
+  /* intro-area css inicio */
   .intro-area {
     height: calc(100vh - 61px);
     display: flex;
@@ -189,7 +189,7 @@ width: 35px;
 margin-left: 10px;
 }
 
-/* mobile breakpoint start */
+/* breakpoint para mobile inicio */
   @media screen and (max-width: 767px) {
     .container {
       max-width: 720px;
@@ -212,7 +212,7 @@ margin-left: 10px;
       bottom: 6px;
     }
 
-    /* navbar css for mobile start */
+    /* navbar css para mobile inicio */
     .nav-toggler{
       display: block;
     }
@@ -264,6 +264,6 @@ margin-left: 10px;
       width: 35px;
       margin-left: 10px;
     }
-    /* navbar css for mobile end */
+    /* navbar css para mobile fim */
   }
-  /* mobile breakpoint end */
+  /*breakpoint para mobile fim */

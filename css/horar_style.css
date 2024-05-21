@@ -48,7 +48,7 @@ img {
   height: auto;
 }
 
-/* navbar regular css start */
+/* navbar regular css inicio */
 .navbar-area {
   background: #202020;
   border-bottom: #202020;
@@ -86,9 +86,9 @@ a.site-logo {
 .site-navbar ul li a:hover {
   background: rgba(255,255,255,.1);
 }
-/* navbar regular css end */
+/* navbar regular css fim */
 
-/* nav-toggler css start */
+/* nav-toggler css inicio */
 .nav-toggler {
   border: 3px solid #fff;
   padding: 5px;
@@ -123,9 +123,9 @@ a.site-logo {
 .nav-toggler.toggler-open span:after {
   transform: translateY(-3px) rotate(-45deg);
 }
-/* nav-toggler css start */
+/* nav-toggler css fim */
 
-/* intro-area css start */
+/* intro-area css inicio */
 .intro-area {
   height: calc(100vh - 61px);
   display: flex;
@@ -161,7 +161,7 @@ main {
   margin: auto;            
 }
 
-/* Add a line under the heading */
+/* Adiciona uma linha debaixo do h1 */
 #aulas-horarios h1 {
   border-bottom: 3px solid #000; 
   padding-bottom: 20 px;          
@@ -190,7 +190,7 @@ width: 35px;
 margin-left: 10px;
 }
 
-/* mobile breakpoint start */
+/* mobile breakpoint inicio */
 @media screen and (max-width: 767px) {
   .container {
       max-width: 720px;
@@ -263,6 +263,6 @@ margin-left: 10px;
     width: 35px;
     margin-left: 10px;
   }
-  /* navbar css for mobile end */
+  /* navbar css para mobile fim */
 }
-/* mobile breakpoint end */
+/* mobile breakpoint fim */
