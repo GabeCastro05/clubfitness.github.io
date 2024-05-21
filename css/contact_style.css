@@ -133,31 +133,6 @@ img {
   .intro-area p {
     font-size: 18px;
   }
-  /* intro-area css end */
-  
-
-/*
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-nav ul li a:hover {
-    color:#FF5733;
-
-}
-
-*/
 
 .contact {
     padding: 100px 0;
@@ -196,16 +171,22 @@ footer {
   background-color: #202020;
   color: #fff;
   text-align: center;
-  padding: 25px 0;
-  height: 2.5rem;
-  width: 100%;
-  position: absolute;
+  padding: 10px 0;
+  position: fixed;
   bottom: 0;
+  width: 100%;
 }
 
 footer p{
-  font-size: 1.1rem;
-  font-weight: 500;
+font-size: 1.1rem;
+font-weight: 500;
+}
+
+.footer-icon{
+position: relative;
+height: 35px;
+width: 35px;
+margin-left: 10px;
 }
 
 /* mobile breakpoint start */
@@ -215,21 +196,21 @@ footer p{
     }
 
     
-img {
-  top: 5px;
-  width: 45px;
-  position: relative;
-  left: -15px;
-}
-
-a.site-logo{
-  position: relative;
-  font-size: 22px;
-  margin-left: 44px;
-  font-size: 1.2rem;
-  left: -55px;
-  bottom: 6px;
-}
+    img {
+      top: 5px;
+      width: 45px;
+      position: relative;
+      left: -15px;
+    }
+    
+    a.site-logo{
+      position: relative;
+      font-size: 22px;
+      margin-left: 44px;
+      font-size: 1.2rem;
+      left: -55px;
+      bottom: 6px;
+    }
 
     /* navbar css for mobile start */
     .nav-toggler{
@@ -276,6 +257,13 @@ a.site-logo{
       font-size: 36px;
       margin-bottom: 15px;
     }  
+
+    .footer-icon{
+      position: relative;
+      height: 35px;
+      width: 35px;
+      margin-left: 10px;
+    }
     /* navbar css for mobile end */
   }
   /* mobile breakpoint end */

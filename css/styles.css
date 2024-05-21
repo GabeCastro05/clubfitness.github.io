@@ -135,63 +135,6 @@ img {
   .intro-area p {
     font-size: 18px;
   }
-  /* intro-area css fim */
-
-/*
-
-header {
-    background-color: #202020;
-    color: #fff;
-    padding: 20px 0;
-}
-
-header h1 {
-    margin: 0;
-    font-size: 28px;
-}
-
-.brname {
-    text-decoration: none;
-    color: #fff;
-}
-
-.brname:hover {
-    color: #FF5733;
-}
-
-#logo {
-    padding-right: 10px;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    text-align: center;
-    font-size: 1.2em;
-    
-}
-
-nav ul li {
-    display: inline-block;
-    margin-right: 50px;
-
-}
-
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 10px;
-    border-style:outset;
-    padding: 10px;
-}
-
-nav ul li a:hover {
-    color:#FF5733;
-
-}
-
-*/
 
 .hero {
     background-image: url('../images/halter.jpg');
@@ -245,13 +188,9 @@ nav ul li a:hover {
     padding: 0;
   }
   
-  html,
   body {
     height: 100%;
     min-height: 100vh;
-  }
-  
-  body {
     display: grid;
     font-size: 1.1rem;
     line-height: 1.2;
@@ -260,7 +199,7 @@ nav ul li a:hover {
   }
 
 main.flow{
-  margin-left: 140px;
+  margin: auto;
 }
   
   ul {
@@ -415,6 +354,18 @@ footer {
     padding: 20px 0;
 }
 
+footer p{
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.footer-icon{
+  position: relative;
+  height: 35px;
+  width: 35px;
+  margin-left: 10px;
+}
+
 #TopBtn {
   display: none;
   position: fixed;
@@ -429,6 +380,10 @@ footer {
   transition: 0.2s ease;
 }
 
+#TopBtn img{
+  align-content: center;
+}
+
 #TopBtn:hover {
   background-color:#fff;
   color: #FF5733;
@@ -438,6 +393,10 @@ footer {
  @media screen and (max-width: 767px) {
   .container {
     max-width: 720px;
+  }
+
+  main.flow{
+    margin: auto;
   }
 
   
@@ -497,24 +456,18 @@ a.site-logo{
     font-size: 36px;
     margin-bottom: 15px;
   }  
+
+  #TopBtn img{
+    margin: auto;
+  }
+
+  .footer-icon{
+    position: relative;
+    height: 35px;
+    width: 35px;
+    margin-left: 10px;
+  }
+  
   /* navbar css para mobile fim */
-
-  .main__heading{
-    position: relative;
-    right: 50px;
-  }
-
-  .main__cards{
-    position: relative;
-    right: 50px;
-    box-sizing: border-box;
-    border-radius: 100px;
-    flex: 1 1 100%;
-    margin: 10px 0;
-    
-  }
-
-
-
 
 }
