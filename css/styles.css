@@ -366,6 +366,10 @@ footer p{
   margin-left: 10px;
 }
 
+.footer-icon:hover{
+  opacity: 70%;
+}
+
 #TopBtn {
   display: none;
   position: fixed;
@@ -378,9 +382,7 @@ footer p{
   cursor: pointer;
   border-radius: 100px;
   transition: 0.2s ease;
-}
-
-#TopBtn img{
+  align-items: center;
   align-content: center;
 }
 
@@ -457,16 +459,33 @@ a.site-logo{
     margin-bottom: 15px;
   }  
 
-  #TopBtn img{
-    margin: auto;
-  }
-
   .footer-icon{
     position: relative;
     height: 35px;
     width: 35px;
     margin-left: 10px;
   }
+
+  #TopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px; 
+    right: 20px; 
+    z-index: 50;
+    border: none; 
+    outline: none; 
+    background-color: #FF5733;
+    cursor: pointer;
+    border-radius: 100px;
+    transition: 0.2s ease;
+    align-items: center;
+    align-content: center;
+  }
+
+ #setaBtn{
+  left: 0;
+  top: auto;
+ }
   
   /* navbar css para mobile fim */
 
