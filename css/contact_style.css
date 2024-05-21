@@ -148,10 +148,10 @@ img {
 
 .contact input, .contact textarea, .contact button {
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     padding: 10px;
     border-radius: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid #797979;
 }
 
 .contact button {

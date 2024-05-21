@@ -167,7 +167,7 @@ img {
     padding: 15px 20px;
     border-radius: 10px;
     text-decoration: none;
-    box-shadow: -1px -1px 0 #FF5733, 1px -1px 0 #FF5733, -1px 1px 0 #FF5733, 1px 1px 0 #FF5733;
+    border: 2px solid #FF5733;
     transition: 0.5s;
     margin-top: 60px;
 }
@@ -384,6 +384,7 @@ footer p{
   transition: 0.2s ease;
   align-items: center;
   align-content: center;
+  border: 1.9px solid #FF5733;
 }
 
 #TopBtn:hover {
